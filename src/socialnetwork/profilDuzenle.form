@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="grpCinsiyet">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="32" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                      <Component id="btn_gozat" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="184" pref="184" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="90" pref="90" max="-2" attributes="0"/>
+                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="5" pref="5" max="-2" attributes="0"/>
+                      <Component id="txt_adi" min="-2" pref="139" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="lbl_resim" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="247" pref="247" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel20" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="5" pref="5" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txt_kullaniciAdi" min="-2" pref="139" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="cmb_Gun" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                                      <Component id="cmb_ay" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
+                                      <Component id="cmb_yil" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="cmb_ulke" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ptxt_mevcudSifre" min="-2" pref="139" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="407" max="-2" attributes="0"/>
+                      <Component id="btn_vazgec" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="75" pref="75" max="-2" attributes="0"/>
+                      <Component id="btn_duzenle" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="59" pref="59" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txt_soyadi" min="-2" pref="139" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="rd_E" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                                      <Component id="rd_K" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="60" pref="60" max="-2" attributes="0"/>
+                              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="5" pref="5" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lbl_eposta" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                                      <Component id="txt_ePosta" min="-2" pref="139" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="28" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                      <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="btn_gozat" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="13" pref="13" max="-2" attributes="0"/>
+                      <Component id="txt_adi" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl_resim" min="-2" pref="140" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="13" pref="13" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ptxt_mevcudSifre" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="19" pref="19" max="-2" attributes="0"/>
+                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="13" pref="13" max="-2" attributes="0"/>
+                      <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="54" pref="54" max="-2" attributes="0"/>
+                      <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="19" pref="19" max="-2" attributes="0"/>
+                      <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="txt_kullaniciAdi" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="48" pref="48" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cmb_Gun" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmb_ay" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmb_yil" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="13" pref="13" max="-2" attributes="0"/>
+                      <Component id="cmb_ulke" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="33" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="txt_soyadi" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="13" pref="13" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="rd_E" min="-2" max="-2" attributes="0"/>
+                          <Component id="rd_K" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="21" pref="21" max="-2" attributes="0"/>
+                              <Component id="lbl_eposta" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="txt_ePosta" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btn_vazgec" min="-2" max="-2" attributes="0"/>
+                          <Component id="btn_duzenle" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ad"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Soyad"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kullan&#x131;c&#x131; Ad&#x131;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cinsiyet"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Do&#x11f;um Tarihi"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="E-Posta"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xdc;lke"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_adi">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_soyadi">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_kullaniciAdi">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_ePosta">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txt_ePostaFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_ulke">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="150">
+            <StringItem index="0" value="Se&#xe7;iniz.."/>
+            <StringItem index="1" value="Almanya"/>
+            <StringItem index="2" value="Amerika Birle&#x15f;ik Devletleri"/>
+            <StringItem index="3" value="Angola"/>
+            <StringItem index="4" value="Arjantin"/>
+            <StringItem index="5" value="Arnavutluk"/>
+            <StringItem index="6" value="Avustralya"/>
+            <StringItem index="7" value="Avusturya"/>
+            <StringItem index="8" value="Banglade&#x15f;"/>
+            <StringItem index="9" value="Bel&#xe7;ika"/>
+            <StringItem index="10" value="Benin"/>
+            <StringItem index="11" value="Beyaz Rusya"/>
+            <StringItem index="12" value="Birle&#x15f;ik Arap Emirlikleri"/>
+            <StringItem index="13" value="Bolivya"/>
+            <StringItem index="14" value="Bosna ve Hersek"/>
+            <StringItem index="15" value="Botswana"/>
+            <StringItem index="16" value="Brezilya"/>
+            <StringItem index="17" value="Bulgaristan"/>
+            <StringItem index="18" value="Burkina Faso"/>
+            <StringItem index="19" value="Burundi"/>
+            <StringItem index="20" value="Cezayir"/>
+            <StringItem index="21" value="Colombia"/>
+            <StringItem index="22" value="&#xc7;ad"/>
+            <StringItem index="23" value="&#xc7;ek Cumhuriyeti"/>
+            <StringItem index="24" value="&#xc7;in"/>
+            <StringItem index="25" value="Danimarka"/>
+            <StringItem index="26" value="Dominik Cumhuriyeti"/>
+            <StringItem index="27" value="Ekvador"/>
+            <StringItem index="28" value="El Salvador"/>
+            <StringItem index="29" value="Endonezya"/>
+            <StringItem index="30" value="Eritre"/>
+            <StringItem index="31" value="Ermenistan"/>
+            <StringItem index="32" value="Estonya"/>
+            <StringItem index="33" value="Etiyopya"/>
+            <StringItem index="34" value="Fas"/>
+            <StringItem index="35" value="Fiji"/>
+            <StringItem index="36" value="Fildi&#x15f;i Sahili"/>
+            <StringItem index="37" value="Filipinler"/>
+            <StringItem index="38" value="Filistin B&#xf6;lgesi"/>
+            <StringItem index="39" value="Finlandiya"/>
+            <StringItem index="40" value="Fransa"/>
+            <StringItem index="41" value="forumdas.net"/>
+            <StringItem index="42" value="Gabon"/>
+            <StringItem index="43" value="Gambia"/>
+            <StringItem index="44" value="Gana"/>
+            <StringItem index="45" value="Georgia"/>
+            <StringItem index="46" value="Gine"/>
+            <StringItem index="47" value="Guatemala"/>
+            <StringItem index="48" value="G&#xfc;ney Afrika"/>
+            <StringItem index="49" value="G&#xfc;ney Kore"/>
+            <StringItem index="50" value="Haiti"/>
+            <StringItem index="51" value="H&#x131;rvatistan"/>
+            <StringItem index="52" value="Hindistan"/>
+            <StringItem index="53" value="Hollanda"/>
+            <StringItem index="54" value="Honduras"/>
+            <StringItem index="55" value="Hong Kong"/>
+            <StringItem index="56" value="Irak"/>
+            <StringItem index="57" value="&#x130;ngiltere"/>
+            <StringItem index="58" value="&#x130;ran"/>
+            <StringItem index="59" value="&#x130;rlanda"/>
+            <StringItem index="60" value="&#x130;spanya"/>
+            <StringItem index="61" value="&#x130;srail"/>
+            <StringItem index="62" value="&#x130;sve&#xe7;"/>
+            <StringItem index="63" value="&#x130;svi&#xe7;re"/>
+            <StringItem index="64" value="&#x130;talya"/>
+            <StringItem index="65" value="Jamaika"/>
+            <StringItem index="66" value="Japonya"/>
+            <StringItem index="67" value="Kambo&#xe7;ya"/>
+            <StringItem index="68" value="Kamerun"/>
+            <StringItem index="69" value="Kanada"/>
+            <StringItem index="70" value="Kazakistan"/>
+            <StringItem index="71" value="Kenya"/>
+            <StringItem index="72" value="K&#x131;rg&#x131;zistan"/>
+            <StringItem index="73" value="Kongo"/>
+            <StringItem index="74" value="Kosta Rika"/>
+            <StringItem index="75" value="Kuveyt"/>
+            <StringItem index="76" value="Kuzey Kore"/>
+            <StringItem index="77" value="K&#xfc;ba"/>
+            <StringItem index="78" value="Laos"/>
+            <StringItem index="79" value="Lesotho"/>
+            <StringItem index="80" value="Letonya"/>
+            <StringItem index="81" value="Libya"/>
+            <StringItem index="82" value="Litvanya"/>
+            <StringItem index="83" value="L&#xfc;bnan"/>
+            <StringItem index="84" value="Macaristan"/>
+            <StringItem index="85" value="Madagaskar"/>
+            <StringItem index="86" value="Makedonya"/>
+            <StringItem index="87" value="Malawi"/>
+            <StringItem index="88" value="Malezya"/>
+            <StringItem index="89" value="Mali"/>
+            <StringItem index="90" value="Mauritius Adas&#x131;"/>
+            <StringItem index="91" value="Meksika"/>
+            <StringItem index="92" value="M&#x131;s&#x131;r"/>
+            <StringItem index="93" value="Mo&#x11f;olistan"/>
+            <StringItem index="94" value="Moldova"/>
+            <StringItem index="95" value="Moritanya"/>
+            <StringItem index="96" value="Mozambik"/>
+            <StringItem index="97" value="Myanmar"/>
+            <StringItem index="98" value="Namibia"/>
+            <StringItem index="99" value="Nepal"/>
+            <StringItem index="100" value="Nijer"/>
+            <StringItem index="101" value="Nijerya"/>
+            <StringItem index="102" value="Nikaragua"/>
+            <StringItem index="103" value="Norve&#xe7;"/>
+            <StringItem index="104" value="&#xd6;zbekistan"/>
+            <StringItem index="105" value="Pakistan"/>
+            <StringItem index="106" value="Panama"/>
+            <StringItem index="107" value="Papua Yeni Gine"/>
+            <StringItem index="108" value="Paraguay"/>
+            <StringItem index="109" value="Peru"/>
+            <StringItem index="110" value="Polonya"/>
+            <StringItem index="111" value="Portekiz"/>
+            <StringItem index="112" value="Porto Riko"/>
+            <StringItem index="113" value="Romanya"/>
+            <StringItem index="114" value="Ruanda"/>
+            <StringItem index="115" value="Rusya"/>
+            <StringItem index="116" value="Senegal"/>
+            <StringItem index="117" value="S&#x131;rbistan"/>
+            <StringItem index="118" value="Sierra Leone"/>
+            <StringItem index="119" value="Singapur"/>
+            <StringItem index="120" value="Slovakya"/>
+            <StringItem index="121" value="Slovenya"/>
+            <StringItem index="122" value="Somali"/>
+            <StringItem index="123" value="Sri Lanka"/>
+            <StringItem index="124" value="Sudan"/>
+            <StringItem index="125" value="Suriye"/>
+            <StringItem index="126" value="Suudi Arabistan"/>
+            <StringItem index="127" value="Svaziland"/>
+            <StringItem index="128" value="&#x15e;ili"/>
+            <StringItem index="129" value="Tacikistan"/>
+            <StringItem index="130" value="Tanzanya"/>
+            <StringItem index="131" value="Tayland"/>
+            <StringItem index="132" value="Tayvan"/>
+            <StringItem index="133" value="Togo"/>
+            <StringItem index="134" value="Trinidad ve Tobago"/>
+            <StringItem index="135" value="Tunus"/>
+            <StringItem index="136" value="T&#xfc;rkiye"/>
+            <StringItem index="137" value="T&#xfc;rkmenistan"/>
+            <StringItem index="138" value="Uganda"/>
+            <StringItem index="139" value="Ukrayna"/>
+            <StringItem index="140" value="Umman"/>
+            <StringItem index="141" value="Uruguay"/>
+            <StringItem index="142" value="&#xdc;rd&#xfc;n"/>
+            <StringItem index="143" value="Venezuela"/>
+            <StringItem index="144" value="Vietnam"/>
+            <StringItem index="145" value="Yemen"/>
+            <StringItem index="146" value="Yeni Zelanda"/>
+            <StringItem index="147" value="Yunanistan"/>
+            <StringItem index="148" value="Zambiya"/>
+            <StringItem index="149" value="Zimbabwe"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rd_E">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="grpCinsiyet"/>
+        </Property>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="Erkek"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rd_K">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="grpCinsiyet"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Kad&#x131;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_gozat">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="G&#xf6;zat..."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_gozatActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel19">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_resim">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Resim Hen&#xfc;z Eklenmedi"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_eposta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="label eposta hata"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Profil Resmi De&#x11f;i&#x15f;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_duzenle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="D&#xfc;zenle"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_duzenleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_Gun">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="31">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+            <StringItem index="10" value="11"/>
+            <StringItem index="11" value="12"/>
+            <StringItem index="12" value="13"/>
+            <StringItem index="13" value="14"/>
+            <StringItem index="14" value="15"/>
+            <StringItem index="15" value="16"/>
+            <StringItem index="16" value="17"/>
+            <StringItem index="17" value="18"/>
+            <StringItem index="18" value="19"/>
+            <StringItem index="19" value="20"/>
+            <StringItem index="20" value="21"/>
+            <StringItem index="21" value="22"/>
+            <StringItem index="22" value="23"/>
+            <StringItem index="23" value="24"/>
+            <StringItem index="24" value="25"/>
+            <StringItem index="25" value="26"/>
+            <StringItem index="26" value="27"/>
+            <StringItem index="27" value="28"/>
+            <StringItem index="28" value="29"/>
+            <StringItem index="29" value="30"/>
+            <StringItem index="30" value="31"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_ay">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="Ocak"/>
+            <StringItem index="1" value="&#x15e;ubat"/>
+            <StringItem index="2" value="Mart"/>
+            <StringItem index="3" value="Nisan"/>
+            <StringItem index="4" value="May&#x131;s"/>
+            <StringItem index="5" value="Haziran"/>
+            <StringItem index="6" value="Temmuz"/>
+            <StringItem index="7" value="A&#x11f;ustos"/>
+            <StringItem index="8" value="Eyl&#xfc;l"/>
+            <StringItem index="9" value="Ekim"/>
+            <StringItem index="10" value="Kas&#x131;m"/>
+            <StringItem index="11" value="Aral&#x131;k"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_yil">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_vazgec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vazge&#xe7;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mevcut &#x15e;ifre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel22">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="ptxt_mevcudSifre">
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="&#x15e;ifre De&#x11f;i&#x15f;"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="100" pref="100" max="-2" attributes="0"/>
+                          <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="5" pref="5" max="-2" attributes="0"/>
+                          <Component id="pTxt_sifre" min="-2" pref="139" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="21" pref="21" max="-2" attributes="0"/>
+                          <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="5" pref="5" max="-2" attributes="0"/>
+                          <Component id="pTxt_sifreOnayla" min="-2" pref="139" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="32" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="33" pref="33" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel17" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="pTxt_sifre" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                              <Component id="pTxt_sifreOnayla" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x15e;ifreyi Onayla"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x15e;ifre"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JPasswordField" name="pTxt_sifreOnayla">
+        </Component>
+        <Component class="javax.swing.JPasswordField" name="pTxt_sifre">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel17">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
